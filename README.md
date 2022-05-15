@@ -11,12 +11,12 @@
 
 
 # 安装
-使用HACS以自定义存储库方式安装，或者从[Latest release](https://github.com/georgezhao2010/bj_sgcc_energy/releases/latest)下载最新的Release版本，将其中的`custom_components/bj_sgcc_engergy`放到你的Home Assistant的`custom_components/bj_sgcc_engergy`中。
+使用HACS以自定义存储库方式安装，或者从[Latest release](https://github.com/ming4J/homeassistant-sgcc/releases)下载最新的Release版本，将其中的`custom_components/homeassistant-sgcc`放到你的Home Assistant的`custom_components/homeassistant-sgcc`中。
 
 # 配置
 在configuration.yaml中，增加配置如下：
-```
-bj_sgcc_energy:
+```yaml
+homeassistant-sgcc:
   openid: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' #此为微信公众号中抓取的openid
 ```
 重新启动Home Assistant

@@ -1,4 +1,4 @@
-DOMAIN = "bj_sgcc_energy"
+DOMAIN = "homeassistant-sgcc"
 
 PGC_PRICE = [
     {
